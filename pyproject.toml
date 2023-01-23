@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "git-sim"
+version = "0.1.2"
+description = "Simulate Git commands on your own repos by generating an image (default) or video visualization depicting the command's behavior."
+authors = ["Jacob Stopak <jacob@initialcommit.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "git_sim"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.12"
+manim = "^0.17.2"
+GitPython = "^3.1.30"
+opencv-python-headless = "^4.7.0.68"
+typer = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
