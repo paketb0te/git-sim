@@ -13,6 +13,7 @@ manim = "^0.17.2"
 GitPython = "^3.1.30"
 opencv-python-headless = "^4.7.0.68"
 typer = "^0.7.0"
+pydantic = "^1.10.4"
 
 [build-system]
 requires = ["poetry-core"]

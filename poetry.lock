@@ -331,6 +331,21 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "pydantic"
+version = "1.10.4"
+description = "Data validation and settings management using python type hints"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+typing-extensions = ">=4.2.0"
+
+[package.extras]
+dotenv = ["python-dotenv (>=0.10.4)"]
+email = ["email-validator (>=1.0.3)"]
+
+[[package]]
 name = "pydub"
 version = "0.25.1"
 description = "Manipulate audio with an simple and easy high level interface"
@@ -562,7 +577,7 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8, <3.12"
-content-hash = "e10b33c3876b463ac800157f1f1130731d64cce57db61b48121d0a6d9713c9ff"
+content-hash = "f56e921f91bd556d40585407ab1a6b7de323e477c35b07bc8c62b85bcfb08e4b"
 
 [metadata.files]
 certifi = []
@@ -595,6 +610,7 @@ numpy = []
 opencv-python-headless = []
 pillow = []
 pycairo = []
+pydantic = []
 pydub = []
 pyglet = []
 pygments = []
