@@ -15,6 +15,9 @@ opencv-python-headless = "^4.7.0.68"
 typer = "^0.7.0"
 pydantic = "^1.10.4"
 
+[tool.poetry.group.dev.dependencies]
+git-dummy = "^0.0.5"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
